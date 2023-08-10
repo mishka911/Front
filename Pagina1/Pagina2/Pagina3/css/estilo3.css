@@ -1,11 +1,17 @@
 *{
+  font-family: 'Cinzel', serif;
   margin: 0;
   padding: 0;
+  background-image: url(../imagen/blancoynegro.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 p{
   margin: 0;
 }
+
 
 .contenido{
   background-color: rgb(235, 235, 197);
@@ -19,6 +25,7 @@ p{
   display: flex;
   flex: 1;
  justify-content: left;
+ font-weight: bold;
 }
 
 .imagen1 img{
