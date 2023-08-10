@@ -12,12 +12,12 @@ body {
 h1{
   font-size: 40px;
 }
-
+/*
 #container{
   margin: 150px auto;
   width: 600px;
-  position:static;
-}
+  
+}*/
 
 table{
   background-color:rgb(110, 117, 120);
@@ -54,14 +54,12 @@ tr:hover td{
   background-image: linear-gradient(150deg, #100b14, rgb(64, 85, 99), #6c9196);
   border-radius: 8px;
   color: aliceblue;
-  display: flex;
   font-size: 18px;
   padding: 4px;
   cursor: pointer;
   transition: .3s;
-  position: sticky;
-  bottom: 80px;
-  left: 20px;
+ 
+ 
 }
 
 .button:hover {
@@ -72,13 +70,13 @@ tr:hover td{
   border-radius: 6px;
 }
 
-
 .button:active{
   transform: scale(0.9);
 }
 
-/*.button a{
+.button a{
     text-decoration: none;
     color: aliceblue;
-}*/
+   
+}
 
