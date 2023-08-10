@@ -1,25 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+}
+
+.contenido{
+  background-color: rgb(235, 235, 197);
+  display: block;
+ 
+}
+
+.parrafo1{
+  align-items: center;
+  background-color: blueviolet;
+  display: flex;
+  flex: 1;
+ justify-content: left;
+}
 
 .imagen1 img{
+  border-radius: 10%;
+  object-fit: cover;
   width: 200px;
   height: 200px;
-  border-style: groove;
-  object-fit: cover;
+  
+  }
 
- }
-
- .imagen1{
-  position: fixed;
-  top: 60px;
- }
-
-.texto{
+.imagen1{
   display: flex;
- 
-  text-align:left, justify;
-}
+  align-items: center;
+  right: 100px;
+}  
 
-.texto .p1{
-flex: 1;
 
-text-align: justify;
-}
+
