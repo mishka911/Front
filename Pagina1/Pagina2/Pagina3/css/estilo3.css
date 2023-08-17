@@ -1,22 +1,46 @@
-body {
+#menu{
   font-family: 'Cinzel', serif;
-  margin: 5px;
+  font-weight: bold;
+}
+
+#contenido {
+  font-family: 'Cinzel', serif;
   padding: 0;
-  background-image: url(../imagen/pexels-pok-rie-2894260.jpg);
+  background-image: url(../imagen/pexels-martin-péchy-2078266.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-weight: bold;
+  color: black;
+}
+#lista{
+  background-color:rgb(62, 60, 60);
+
 }
 
+.dropdown-menu a.dropdown-item{
+  color:aliceblue; /* Cambia aquí al color deseado */
+    transition: color 0.3s;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color:rgb(62, 60, 60);
+  color: rgb(56, 17, 46); /* Cambia aquí al color deseado */
+}
+.navbar-brand{
+  filter: invert(100%);
+}
 h1, h2{
   text-align: center;
+ 
 }
 
-.contenido, .contenido2 {
+#contenidotext, #contenidotext2{
   text-align: justify;
   display: flex;
+  margin: 30px;
+} 
 
-}
 
 .parrafo1, .parrafo2 {
 
