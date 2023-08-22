@@ -1,20 +1,30 @@
-#menu{
+*{
   font-family: 'Cinzel', serif;
   font-weight: bold;
-}
-
-#contenido {
-  font-family: 'Cinzel', serif;
+  color: black;
   padding: 0;
+}
+body{
   background-image: url(../imagen/pexels-martin-péchy-2078266.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-weight: bold;
-  color: black;
+
 }
+#menu{
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  background-color: black;
+
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
 #lista{
-  background-color:rgb(62, 60, 60);
+  background-color: black;
 
 }
 
@@ -24,15 +34,17 @@
 }
 
 .dropdown-menu a.dropdown-item:hover {
-  background-color:rgb(62, 60, 60);
-  color: rgb(56, 17, 46); /* Cambia aquí al color deseado */
+  background-color:black;
+  color: rgb(56, 68, 230); /* Cambia aquí al color deseado */
 }
 .navbar-brand{
   filter: invert(100%);
 }
+
 h1, h2{
   text-align: center;
- 
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
 }
 
 #contenidotext, #contenidotext2{
