@@ -1,5 +1,7 @@
 *{
   font-family: 'Cinzel', serif;
+  color: black;
+  padding: 0;
 }
 
 body {
@@ -9,20 +11,48 @@ body {
   background-attachment: fixed;
 }
 
-h1{
-  font-size: 40px;
+#menu{
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  background-color: black;
 }
-/*
+
+#lista{
+  background-color: black;
+}
+
+.dropdown-menu a.dropdown-item{
+  color:aliceblue; /* Cambia aquí al color deseado */
+    transition: color 0.3s;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color:black;
+  color: rgb(56, 68, 230); /* Cambia aquí al color deseado */
+}
+.navbar-brand{
+  filter: invert(100%);
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
 #container{
   margin: 150px auto;
   width: 600px;
-  
-}*/
+}
 
 table{
   background-color:rgb(110, 117, 120);
   border-collapse: collapse;
    width: 100%;
+}
+
+#tabla{
+text-align: center;
 }
 
 .titulo{
@@ -48,7 +78,7 @@ tr:hover td{
   color: aliceblue; /*resaltar cuando pasa el mouse*/
 }
 
-
+/*
 .button{
   border: 0;
   background-image: linear-gradient(150deg, #100b14, rgb(64, 85, 99), #6c9196);
@@ -79,3 +109,4 @@ tr:hover td{
    
 }
 
+*/
