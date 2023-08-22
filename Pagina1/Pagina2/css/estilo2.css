@@ -40,11 +40,6 @@ body {
 }
 
 
-#container{
-  margin: 150px auto;
-  width: 600px;
-}
-
 table{
   background-color:rgb(110, 117, 120);
   border-collapse: collapse;
@@ -53,7 +48,11 @@ table{
 
 #tabla{
 text-align: center;
+margin: -150px auto;
+position: absolute;
+  top: 100%;
 }
+
 
 .titulo{
   background-image: linear-gradient(to bottom, rgb(93, 87, 87), rgb(194, 208, 208));
@@ -77,6 +76,59 @@ tr:hover td{
   background-color: #4e625e;
   color: aliceblue; /*resaltar cuando pasa el mouse*/
 }
+
+
+.position{
+  display: flex;
+  position: absolute;
+  align-items: end;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider{
+  background-image: url(../imagen/entrada.jpg);
+background-size: cover;
+height: 53%;
+width: 50%;
+border-radius: 10px;
+animation: animate 20s infinite;
+}
+
+@keyframes animate {
+  20%{
+    background-image: url(../imagen/chester-bennington-muerte.jpg);
+    background-size: cover;
+  }
+
+  30%{
+    background-image: url(../imagen/Mike-Shinoda-de-Linkin-Park-estrena-cancion-en-solitario.jpg);
+    background-size: cover;
+  }
+
+  40%{
+    background-image: url(../imagen/Dave\ Farrell.jpeg);
+    background-size: cover;
+  }
+
+  50%{
+    background-image: url(../imagen/joe\ hahn2.jpeg);
+    background-size: cover;
+  }
+
+  70%{
+    background-image: url(../imagen/Brad\ Delson.jpg);
+    background-size: cover;
+  }
+
+  90%{
+    background-image: url(../imagen/Rob\ Bourdon.jpg);
+    background-size: cover;
+  }
+
+}
+
 
 /*
 .button{
